@@ -1,10 +1,12 @@
-/* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+/*css reset starts*/
+
+/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  /* outline: 2px solid red; */
 }
 
 /* Remove default margin */
@@ -82,12 +84,17 @@ select {
   --clr-review-bg: hsl(300, 24%, 96%); /*reviews*/
 }
 
+/*reset.css ends*/
+
+
+
 body {
   font-family: "League Spartan", sans-serif;
   display: grid;
   padding: 2rem 0.75rem;
   min-width: 100vw;
 }
+
 .container {
   margin: 4.8rem 1.7rem;
   display: grid;
@@ -301,10 +308,3 @@ body {
     max-width: 1300px;
   }
 }
-
-/* Light Grayish Magenta: hsl(300, 24%, 96%) */
-/* White: hsl(0, 0%, 100%) */
-
-/* Font size: 15px */
-
-/* - Weights: 400, 500, 700 */
