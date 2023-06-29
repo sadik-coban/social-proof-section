@@ -77,16 +77,14 @@ select {
   }
 }
 
+/*css reset ends*/
+
 :root {
   --clr-primary-color: hsl(300, 43%, 22%); /*title, buyer cards*/
   --clr-secondary-color: hsl(303, 10%, 53%); /*description text */
   --clr-sub_title-text: hsl(333, 80%, 67%); /*verified buyer text reviews text*/
   --clr-review-bg: hsl(300, 24%, 96%); /*reviews*/
 }
-
-/*reset.css ends*/
-
-
 
 body {
   font-family: "League Spartan", sans-serif;
@@ -239,9 +237,6 @@ body {
     gap: 1em;
   }
   .container {
-    /* margin: 4.8rem 1.7rem;
-    display: grid;
-    gap: 4rem; */
     max-width: 1080px;
     gap: 10rem;
     grid-template-areas:
